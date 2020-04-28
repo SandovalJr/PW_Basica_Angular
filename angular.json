@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ConceptosBasicos"
+    }
+  },
+  "defaultProject": "ConceptosBasicos",
+  "cli": {
+    "analytics": false
+  }
 }
