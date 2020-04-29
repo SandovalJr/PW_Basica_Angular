@@ -8,10 +8,19 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BodyComponent } from './components/body/body.component';
+import { articulo } from './components/articulos/articulos.component';
+import {publicidadComponent} from './components/publicidad/publicidad.component';
 
 @NgModule({
   // aqui van los componentes (para que angular vea los componentes que puede utlizar)
-  declarations: [AppComponent, HeaderComponent, FooterComponent , BodyComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    BodyComponent,
+    articulo,
+    publicidadComponent
+  ],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent],
